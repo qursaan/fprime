@@ -22,7 +22,7 @@ namespace Os {
         const U32 MAX_IT = 0xFFFFFFFF; //Max int for U32
         //Loop variables for calculating CRC
         NATIVE_INT_TYPE offset = 0;
-        U32 seed = INITIAL_SEED;
+        U32 seed = INITIAL_SEED; //Initial CRC
         Status status;
         File file;
         U8 file_buffer[CHUNK_SIZE];
